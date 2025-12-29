@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "sentence": "Many companies ______ flexible work arrangements.",
+    "sentence_zh": "許多公司______彈性工作安排。",
+    "choices": ["offer", "offers", "offering", "offered"],
+    "answer": "offer",
+    "tag": "主詞單複數一致",
+    "explanation": "Many companies 為複數主詞，動詞用原形 offer。"
+  },
+  {
+    "id": 2,
+    "sentence": "The new policy ______ employees to work remotely.",
+    "sentence_zh": "新政策______員工遠端工作。",
+    "choices": ["allow", "allows", "allowing", "allowed"],
+    "answer": "allows",
+    "tag": "主詞單複數一致",
+    "explanation": "The new policy 為單數主詞，動詞需加 -s。"
+  },
+  {
+    "id": 3,
+    "sentence": "All visitors must ______ their ID at the front desk.",
+    "sentence_zh": "所有訪客必須______身分證件於櫃檯。",
+    "choices": ["show", "shows", "showing", "showed"],
+    "answer": "show",
+    "tag": "情態動詞",
+    "explanation": "must 後接原形動詞 show。"
+  },
+  {
+    "id": 4,
+    "sentence": "Please ______ the form by Friday.",
+    "sentence_zh": "請在週五前______表格。",
+    "choices": ["submit", "submits", "submitting", "submitted"],
+    "answer": "submit",
+    "tag": "祈使句",
+    "explanation": "祈使句以原形動詞開頭：submit。"
+  },
+  {
+    "id": 5,
+    "sentence": "The report was completed ______ the deadline.",
+    "sentence_zh": "報告在截止日前______完成。",
+    "choices": ["before", "between", "among", "during"],
+    "answer": "before",
+    "tag": "介系詞",
+    "explanation": "before 表示在某時間點之前。"
+  },
+  {
+    "id": 6,
+    "sentence": "Ms. Chen is responsible ______ managing the project.",
+    "sentence_zh": "陳小姐負責______管理此專案。",
+    "choices": ["for", "to", "at", "with"],
+    "answer": "for",
+    "tag": "固定搭配",
+    "explanation": "be responsible for 為固定搭配。"
+  },
+  {
+    "id": 7,
+    "sentence": "The meeting was postponed ______ unexpected circumstances.",
+    "sentence_zh": "會議因______突發狀況而延期。",
+    "choices": ["because", "because of", "although", "despite"],
+    "answer": "because of",
+    "tag": "連接詞 vs 介系詞",
+    "explanation": "because of 後接名詞片語；unexpected circumstances 是名詞片語。"
+  },
+  {
+    "id": 8,
+    "sentence": "Please contact the receptionist ______ you have any questions.",
+    "sentence_zh": "若你有任何問題，請______聯絡櫃檯人員。",
+    "choices": ["if", "so", "while", "since"],
+    "answer": "if",
+    "tag": "條件子句",
+    "explanation": "if 表示條件「如果」。"
+  },
+  {
+    "id": 9,
+    "sentence": "Sales have increased steadily ______ the past six months.",
+    "sentence_zh": "銷售在過去六個月______穩定成長。",
+    "choices": ["over", "at", "by", "since"],
+    "answer": "over",
+    "tag": "時間介系詞",
+    "explanation": "over + 一段時間，表示整段期間內。"
+  },
+  {
+    "id": 10,
+    "sentence": "Applicants must have ______ experience in customer service.",
+    "sentence_zh": "應徵者必須具備______客服經驗。",
+    "choices": ["previous", "previously", "precede", "preceding"],
+    "answer": "previous",
+    "tag": "詞性判斷",
+    "explanation": "experience 為名詞，前面需形容詞 previous。"
+  },
+  {
+    "id": 11,
+    "sentence": "The training session will begin ______ 9 a.m.",
+    "sentence_zh": "訓練課程將於上午九點______開始。",
+    "choices": ["at", "in", "on", "by"],
+    "answer": "at",
+    "tag": "時間介系詞",
+    "explanation": "at 用於精確時間點。"
+  },
+  {
+    "id": 12,
+    "sentence": "The proposal was rejected due to its ______ cost.",
+    "sentence_zh": "提案因其______成本而被否決。",
+    "choices": ["excess", "excessive", "excessively", "exceeded"],
+    "answer": "excessive",
+    "tag": "詞性判斷",
+    "explanation": "cost 為名詞，需形容詞 excessive 修飾。"
+  },
+  {
+    "id": 13,
+    "sentence": "The system will be updated ______ the end of this month.",
+    "sentence_zh": "系統將於本月底前______更新。",
+    "choices": ["by", "until", "during", "from"],
+    "answer": "by",
+    "tag": "期限表達",
+    "explanation": "by 表示最晚期限。"
+  },
+  {
+    "id": 14,
+    "sentence": "Employees are encouraged to dress ______ during client meetings.",
+    "sentence_zh": "員工在客戶會議期間被鼓勵穿著______。",
+    "choices": ["professional", "profession", "professionally", "professionalism"],
+    "answer": "professionally",
+    "tag": "副詞用法",
+    "explanation": "修飾動詞 dress，需副詞 professionally。"
+  },
+  {
+    "id": 15,
+    "sentence": "The product is designed ______ improve efficiency.",
+    "sentence_zh": "此產品設計用來______提升效率。",
+    "choices": ["to", "for", "with", "by"],
+    "answer": "to",
+    "tag": "不定詞表目的",
+    "explanation": "to + 原形動詞表目的。"
+  },
+  {
+    "id": 16,
+    "sentence": "The manager requested that the report ______ revised immediately.",
+    "sentence_zh": "主管要求報告必須立即______修訂。",
+    "choices": ["be", "is", "was", "being"],
+    "answer": "be",
+    "tag": "虛擬語氣",
+    "explanation": "request that + 原形動詞（be）。"
+  },
+  {
+    "id": 17,
+    "sentence": "No one was aware ______ the change in schedule.",
+    "sentence_zh": "沒有人察覺到______行程變更。",
+    "choices": ["of", "to", "for", "with"],
+    "answer": "of",
+    "tag": "固定搭配",
+    "explanation": "be aware of 為固定搭配。"
+  },
+  {
+    "id": 18,
+    "sentence": "The company aims to reduce costs ______ maintaining quality.",
+    "sentence_zh": "公司目標是在______維持品質的同時降低成本。",
+    "choices": ["while", "during", "because", "although"],
+    "answer": "while",
+    "tag": "連接詞",
+    "explanation": "while 表示「同時」。"
+  },
+  {
+    "id": 19,
+    "sentence": "The contract will remain valid ______ both parties agree otherwise.",
+    "sentence_zh": "合約將持續有效，______雙方另有同意。",
+    "choices": ["unless", "if", "while", "since"],
+    "answer": "unless",
+    "tag": "條件連接詞",
+    "explanation": "unless = if not，表示否定條件。"
+  },
+  {
+    "id": 20,
+    "sentence": "The seminar was attended by ______ than 200 participants.",
+    "sentence_zh": "研討會有超過 200 位參與者______出席。",
+    "choices": ["more", "most", "many", "much"],
+    "answer": "more",
+    "tag": "比較級",
+    "explanation": "than 出現，需用比較級 more。"
+  },
+  {
+    "id": 21,
+    "sentence": "The employee ______ the email before leaving the office.",
+    "sentence_zh": "員工在離開辦公室前______寄出那封信。",
+    "choices": ["sent", "sends", "sending", "send"],
+    "answer": "sent",
+    "tag": "時態判斷",
+    "explanation": "before leaving 表過去情境，動詞用過去式 sent。"
+  },
+  {
+    "id": 22,
+    "sentence": "The documents need to be signed ______ they are submitted.",
+    "sentence_zh": "文件在提交前需要被簽署______。",
+    "choices": ["before", "after", "since", "because"],
+    "answer": "before",
+    "tag": "時間連接詞",
+    "explanation": "先簽再提交，用 before。"
+  },
+  {
+    "id": 23,
+    "sentence": "We will proceed with the plan ______ it is approved by the board.",
+    "sentence_zh": "只要計畫被董事會核准，我們就會______推進。",
+    "choices": ["once", "unless", "despite", "whereas"],
+    "answer": "once",
+    "tag": "時間/條件",
+    "explanation": "once 表「一旦」。"
+  },
+  {
+    "id": 24,
+    "sentence": "The marketing team is working ______ a new campaign.",
+    "sentence_zh": "行銷團隊正在致力於______一個新活動。",
+    "choices": ["on", "at", "in", "to"],
+    "answer": "on",
+    "tag": "介系詞搭配",
+    "explanation": "work on 為固定搭配。"
+  },
+  {
+    "id": 25,
+    "sentence": "Please make sure the file is saved ______ you close the program.",
+    "sentence_zh": "請確保在你關閉程式______檔案已儲存。",
+    "choices": ["before", "while", "since", "though"],
+    "answer": "before",
+    "tag": "時間連接詞",
+    "explanation": "先存檔再關閉，用 before。"
+  },
+  {
+    "id": 26,
+    "sentence": "The CEO gave a speech ______ the annual conference.",
+    "sentence_zh": "執行長在年度會議______致詞。",
+    "choices": ["at", "in", "on", "by"],
+    "answer": "at",
+    "tag": "介系詞（活動/地點）",
+    "explanation": "at 用於特定活動/地點（conference）。"
+  },
+  {
+    "id": 27,
+    "sentence": "The software is compatible ______ most devices.",
+    "sentence_zh": "此軟體與大多數裝置______相容。",
+    "choices": ["with", "for", "to", "on"],
+    "answer": "with",
+    "tag": "固定搭配",
+    "explanation": "compatible with 為固定搭配。"
+  },
+  {
+    "id": 28,
+    "sentence": "The shipment arrived ______ schedule.",
+    "sentence_zh": "貨運按______到達。",
+    "choices": ["on", "in", "at", "by"],
+    "answer": "on",
+    "tag": "固定搭配",
+    "explanation": "on schedule = 按時。"
+  },
+  {
+    "id": 29,
+    "sentence": "The invoice must be paid ______ 30 days.",
+    "sentence_zh": "發票必須在 30 天內______支付。",
+    "choices": ["within", "between", "among", "during"],
+    "answer": "within",
+    "tag": "時間介系詞",
+    "explanation": "within 表示在期限之內。"
+  },
+  {
+    "id": 30,
+    "sentence": "Our team will discuss the issue ______ tomorrow's meeting.",
+    "sentence_zh": "我們將在明天的會議______討論此議題。",
+    "choices": ["during", "since", "unless", "beside"],
+    "answer": "during",
+    "tag": "時間介系詞",
+    "explanation": "during + 名詞（meeting）。"
+  },
+  {
+    "id": 31,
+    "sentence": "The receptionist asked me ______ my name and phone number.",
+    "sentence_zh": "接待員請我______姓名與電話。",
+    "choices": ["to provide", "provide", "providing", "provided"],
+    "answer": "to provide",
+    "tag": "不定詞",
+    "explanation": "ask + 人 + to V。"
+  },
+  {
+    "id": 32,
+    "sentence": "The company will hire additional staff ______ demand increases.",
+    "sentence_zh": "公司將在需求上升時______增聘人員。",
+    "choices": ["as", "so", "but", "than"],
+    "answer": "as",
+    "tag": "連接詞",
+    "explanation": "as 表示「隨著」。"
+  },
+  {
+    "id": 33,
+    "sentence": "The printer is out of paper; please ______ it.",
+    "sentence_zh": "印表機沒紙了，請______它。",
+    "choices": ["refill", "refills", "refilling", "refilled"],
+    "answer": "refill",
+    "tag": "祈使句",
+    "explanation": "祈使句用原形 refill。"
+  },
+  {
+    "id": 34,
+    "sentence": "The product was shipped ______ express delivery.",
+    "sentence_zh": "產品以快遞方式______寄出。",
+    "choices": ["by", "with", "to", "at"],
+    "answer": "by",
+    "tag": "介系詞（方式）",
+    "explanation": "by + 方法/手段（by express delivery）。"
+  },
+  {
+    "id": 35,
+    "sentence": "The manager is looking forward to ______ from you soon.",
+    "sentence_zh": "主管期待很快能______你的回覆。",
+    "choices": ["hearing", "hear", "to hear", "heard"],
+    "answer": "hearing",
+    "tag": "動名詞",
+    "explanation": "look forward to 後接 V-ing。"
+  },
+  {
+    "id": 36,
+    "sentence": "The new employee quickly became familiar ______ the procedures.",
+    "sentence_zh": "新員工很快熟悉______流程。",
+    "choices": ["with", "to", "for", "at"],
+    "answer": "with",
+    "tag": "固定搭配",
+    "explanation": "familiar with 為固定搭配。"
+  },
+  {
+    "id": 37,
+    "sentence": "The budget was approved, ______ the project can start next week.",
+    "sentence_zh": "預算已核准，______專案可於下週開始。",
+    "choices": ["so", "but", "yet", "nor"],
+    "answer": "so",
+    "tag": "因果連接詞",
+    "explanation": "前因後果，用 so。"
+  },
+  {
+    "id": 38,
+    "sentence": "The office will be closed ______ national holidays.",
+    "sentence_zh": "辦公室在國定假日______休息。",
+    "choices": ["on", "at", "in", "by"],
+    "answer": "on",
+    "tag": "時間介系詞",
+    "explanation": "on + 特定日子/節日。"
+  },
+  {
+    "id": 39,
+    "sentence": "Employees should submit their requests ______ writing.",
+    "sentence_zh": "員工應以書面______提出申請。",
+    "choices": ["in", "on", "by", "at"],
+    "answer": "in",
+    "tag": "固定搭配",
+    "explanation": "in writing = 以書面方式。"
+  },
+  {
+    "id": 40,
+    "sentence": "The presentation was ______ informative than expected.",
+    "sentence_zh": "簡報比預期更______有資訊量。",
+    "choices": ["more", "most", "many", "much"],
+    "answer": "more",
+    "tag": "比較級",
+    "explanation": "than 提示比較級 more。"
+  },
+  {
+    "id": 41,
+    "sentence": "The company has ______ a new branch in Singapore.",
+    "sentence_zh": "公司已在新加坡______一間新分公司。",
+    "choices": ["opened", "open", "opening", "opens"],
+    "answer": "opened",
+    "tag": "現在完成式",
+    "explanation": "has + 過去分詞 opened。"
+  },
+  {
+    "id": 42,
+    "sentence": "The survey results will be available ______ Monday.",
+    "sentence_zh": "調查結果將於週一______可取得。",
+    "choices": ["on", "at", "in", "by"],
+    "answer": "on",
+    "tag": "時間介系詞",
+    "explanation": "on + 星期。"
+  },
+  {
+    "id": 43,
+    "sentence": "Customers can receive a refund ______ they provide a receipt.",
+    "sentence_zh": "顧客可在______提供收據時辦理退款。",
+    "choices": ["if", "although", "whereas", "despite"],
+    "answer": "if",
+    "tag": "條件子句",
+    "explanation": "if 表示條件。"
+  },
+  {
+    "id": 44,
+    "sentence": "The meeting agenda was sent ______ all participants.",
+    "sentence_zh": "會議議程已寄給______所有與會者。",
+    "choices": ["to", "for", "at", "by"],
+    "answer": "to",
+    "tag": "介系詞",
+    "explanation": "send A to B。"
+  },
+  {
+    "id": 45,
+    "sentence": "Please ensure that all data ______ backed up regularly.",
+    "sentence_zh": "請確保所有資料都______定期備份。",
+    "choices": ["is", "are", "was", "were"],
+    "answer": "is",
+    "tag": "主詞一致（不可數）",
+    "explanation": "data 在商用寫作常作集合概念使用，搭配 is。"
+  },
+  {
+    "id": 46,
+    "sentence": "The technician will inspect the equipment ______ it is installed.",
+    "sentence_zh": "技術員會在設備安裝______進行檢查。",
+    "choices": ["before", "after", "since", "while"],
+    "answer": "before",
+    "tag": "時間連接詞",
+    "explanation": "先檢查再安裝，用 before。"
+  },
+  {
+    "id": 47,
+    "sentence": "The company’s goal is to increase revenue ______ 10%.",
+    "sentence_zh": "公司目標是將營收提高______10%。",
+    "choices": ["by", "to", "at", "from"],
+    "answer": "by",
+    "tag": "介系詞（幅度）",
+    "explanation": "increase by + 幅度。"
+  },
+  {
+    "id": 48,
+    "sentence": "The new software is easier to use ______ the previous version.",
+    "sentence_zh": "新軟體比舊版更容易使用______。",
+    "choices": ["than", "to", "for", "with"],
+    "answer": "than",
+    "tag": "比較級",
+    "explanation": "比較句型：adj + than。"
+  },
+  {
+    "id": 49,
+    "sentence": "The receptionist answered the phone ______.",
+    "sentence_zh": "接待員______接起電話。",
+    "choices": ["politely", "polite", "politeness", "political"],
+    "answer": "politely",
+    "tag": "副詞用法",
+    "explanation": "修飾動詞 answered，需副詞 politely。"
+  },
+  {
+    "id": 50,
+    "sentence": "The documents were filed ______ alphabetical order.",
+    "sentence_zh": "文件已按字母順序______歸檔。",
+    "choices": ["in", "on", "at", "by"],
+    "answer": "in",
+    "tag": "固定搭配",
+    "explanation": "in alphabetical order 為固定搭配。"
+  },
+  {
+    "id": 51,
+    "sentence": "The client requested a ______ copy of the contract.",
+    "sentence_zh": "客戶要求合約的______副本。",
+    "choices": ["printed", "printing", "print", "prints"],
+    "answer": "printed",
+    "tag": "分詞作形容詞",
+    "explanation": "printed 作形容詞修飾 copy。"
+  },
+  {
+    "id": 52,
+    "sentence": "The conference room is available ______ 2 p.m. to 4 p.m.",
+    "sentence_zh": "會議室在下午兩點到四點______可使用。",
+    "choices": ["from", "by", "until", "at"],
+    "answer": "from",
+    "tag": "時間範圍",
+    "explanation": "from...to... 表示時間範圍。"
+  },
+  {
+    "id": 53,
+    "sentence": "The manager spoke ______ the importance of customer satisfaction.",
+    "sentence_zh": "主管談到客戶滿意度的重要性______。",
+    "choices": ["about", "to", "with", "at"],
+    "answer": "about",
+    "tag": "介系詞",
+    "explanation": "speak about + 主題。"
+  },
+  {
+    "id": 54,
+    "sentence": "We appreciate your ______ to this matter.",
+    "sentence_zh": "我們感謝你對此事的______。",
+    "choices": ["attention", "attend", "attentive", "attending"],
+    "answer": "attention",
+    "tag": "名詞用法",
+    "explanation": "your 後接名詞 attention。"
+  },
+  {
+    "id": 55,
+    "sentence": "The shipment was delayed ______ heavy rain.",
+    "sentence_zh": "貨運因大雨______延誤。",
+    "choices": ["due to", "despite", "although", "because"],
+    "answer": "due to",
+    "tag": "原因介系詞",
+    "explanation": "due to 後接名詞片語。"
+  },
+  {
+    "id": 56,
+    "sentence": "Employees are not allowed to use personal phones ______ work hours.",
+    "sentence_zh": "員工在上班時間______使用私人手機。",
+    "choices": ["during", "between", "among", "within"],
+    "answer": "during",
+    "tag": "時間介系詞",
+    "explanation": "during + 名詞（work hours）。"
+  },
+  {
+    "id": 57,
+    "sentence": "The company will conduct interviews ______ week.",
+    "sentence_zh": "公司將在下週______進行面試。",
+    "choices": ["next", "last", "later", "near"],
+    "answer": "next",
+    "tag": "時間片語",
+    "explanation": "next week 為固定時間片語。"
+  },
+  {
+    "id": 58,
+    "sentence": "The new product is expected to ______ well in the market.",
+    "sentence_zh": "新產品預期在市場上會______良好。",
+    "choices": ["perform", "performs", "performing", "performed"],
+    "answer": "perform",
+    "tag": "不定詞後動詞",
+    "explanation": "to 後接原形 perform。"
+  },
+  {
+    "id": 59,
+    "sentence": "The accountant will review the statements ______ they are finalized.",
+    "sentence_zh": "會計師會在報表定案______審核。",
+    "choices": ["before", "after", "since", "unless"],
+    "answer": "before",
+    "tag": "時間連接詞",
+    "explanation": "先審核再定案，用 before。"
+  },
+  {
+    "id": 60,
+    "sentence": "The HR department is ______ charge of recruitment.",
+    "sentence_zh": "人資部門負責招募，並且______主管此工作。",
+    "choices": ["in", "on", "at", "by"],
+    "answer": "in",
+    "tag": "固定搭配",
+    "explanation": "in charge of 為固定搭配。"
+  },
+  {
+    "id": 61,
+    "sentence": "The package was delivered ______ my neighbor by mistake.",
+    "sentence_zh": "包裹誤送______我的鄰居。",
+    "choices": ["to", "for", "with", "at"],
+    "answer": "to",
+    "tag": "介系詞",
+    "explanation": "deliver A to B。"
+  },
+  {
+    "id": 62,
+    "sentence": "The staff meeting will be held ______ the third floor.",
+    "sentence_zh": "員工會議將在三樓______舉行。",
+    "choices": ["on", "in", "at", "by"],
+    "answer": "on",
+    "tag": "介系詞（樓層）",
+    "explanation": "on the third floor。"
+  },
+  {
+    "id": 63,
+    "sentence": "The company is known ______ its innovative culture.",
+    "sentence_zh": "這家公司以創新文化而______聞名。",
+    "choices": ["for", "to", "with", "at"],
+    "answer": "for",
+    "tag": "固定搭配",
+    "explanation": "be known for。"
+  },
+  {
+    "id": 64,
+    "sentence": "Please keep your receipt ______ you need to return the item.",
+    "sentence_zh": "請保留收據，以防你______需要退貨。",
+    "choices": ["in case", "unless", "despite", "whereas"],
+    "answer": "in case",
+    "tag": "預防用法",
+    "explanation": "in case 表示「以防萬一」。"
+  },
+  {
+    "id": 65,
+    "sentence": "The training materials were distributed ______ all attendees.",
+    "sentence_zh": "訓練教材已分發______所有出席者。",
+    "choices": ["to", "for", "at", "by"],
+    "answer": "to",
+    "tag": "介系詞",
+    "explanation": "distribute A to B。"
+  },
+  {
+    "id": 66,
+    "sentence": "The company plans to expand ______ Asia next year.",
+    "sentence_zh": "公司計畫明年擴張到______亞洲。",
+    "choices": ["into", "on", "to", "at"],
+    "answer": "into",
+    "tag": "介系詞",
+    "explanation": "expand into + 地區/市場。"
+  },
+  {
+    "id": 67,
+    "sentence": "The supervisor insisted that everyone ______ on time.",
+    "sentence_zh": "主管堅持每個人都要______準時。",
+    "choices": ["arrive", "arrives", "arriving", "arrived"],
+    "answer": "arrive",
+    "tag": "要求句型",
+    "explanation": "insist that 後常用原形動詞 arrive。"
+  },
+  {
+    "id": 68,
+    "sentence": "The new employee is ______ capable of handling the task.",
+    "sentence_zh": "新員工______有能力處理此任務。",
+    "choices": ["fully", "full", "fullness", "fulfill"],
+    "answer": "fully",
+    "tag": "副詞用法",
+    "explanation": "修飾 capable，需副詞 fully。"
+  },
+  {
+    "id": 69,
+    "sentence": "The memo was written ______ clear language.",
+    "sentence_zh": "備忘錄以______清楚的語言撰寫。",
+    "choices": ["in", "on", "at", "by"],
+    "answer": "in",
+    "tag": "介系詞",
+    "explanation": "in + 語言/方式。"
+  },
+  {
+    "id": 70,
+    "sentence": "The sales figures are ______ higher than last quarter.",
+    "sentence_zh": "銷售數字______比上季更高。",
+    "choices": ["significantly", "significant", "significance", "signify"],
+    "answer": "significantly",
+    "tag": "副詞用法",
+    "explanation": "修飾比較級 higher，需副詞 significantly。"
+  },
+  {
+    "id": 71,
+    "sentence": "The report includes data ______ customer feedback.",
+    "sentence_zh": "報告包含______客戶回饋的資料。",
+    "choices": ["from", "at", "to", "of"],
+    "answer": "from",
+    "tag": "介系詞",
+    "explanation": "data from... 表示資料來源。"
+  },
+  {
+    "id": 72,
+    "sentence": "The office moved to a new location ______ May.",
+    "sentence_zh": "辦公室在五月______搬到新地點。",
+    "choices": ["in", "on", "at", "by"],
+    "answer": "in",
+    "tag": "時間介系詞",
+    "explanation": "in + 月份。"
+  },
+  {
+    "id": 73,
+    "sentence": "The manager was pleased ______ the team's performance.",
+    "sentence_zh": "主管對團隊表現感到______滿意。",
+    "choices": ["with", "to", "for", "at"],
+    "answer": "with",
+    "tag": "固定搭配",
+    "explanation": "be pleased with。"
+  },
+  {
+    "id": 74,
+    "sentence": "The printer needs to be repaired, ______ it keeps jamming.",
+    "sentence_zh": "印表機需要維修，______它一直卡紙。",
+    "choices": ["because", "although", "unless", "whereas"],
+    "answer": "because",
+    "tag": "因果連接詞",
+    "explanation": "後句為原因，用 because。"
+  },
+  {
+    "id": 75,
+    "sentence": "The presentation was postponed ______ the speaker was ill.",
+    "sentence_zh": "簡報延期，______講者生病了。",
+    "choices": ["because", "because of", "despite", "during"],
+    "answer": "because",
+    "tag": "連接詞",
+    "explanation": "because 後接子句。"
+  },
+  {
+    "id": 76,
+    "sentence": "The customer asked ______ a discount on bulk orders.",
+    "sentence_zh": "客戶詢問是否能______大量訂購折扣。",
+    "choices": ["for", "to", "with", "at"],
+    "answer": "for",
+    "tag": "固定搭配",
+    "explanation": "ask for + 名詞（discount）。"
+  },
+  {
+    "id": 77,
+    "sentence": "All employees must ______ the safety rules.",
+    "sentence_zh": "所有員工必須______安全規範。",
+    "choices": ["follow", "follows", "following", "followed"],
+    "answer": "follow",
+    "tag": "情態動詞",
+    "explanation": "must 後接原形 follow。"
+  },
+  {
+    "id": 78,
+    "sentence": "The company will announce the results ______ Friday afternoon.",
+    "sentence_zh": "公司將在週五下午______公布結果。",
+    "choices": ["on", "in", "at", "by"],
+    "answer": "on",
+    "tag": "時間介系詞",
+    "explanation": "on + 具體日子/時段。"
+  },
+  {
+    "id": 79,
+    "sentence": "The brochure provides information ______ our services.",
+    "sentence_zh": "宣傳冊提供______我們服務的資訊。",
+    "choices": ["about", "to", "with", "at"],
+    "answer": "about",
+    "tag": "介系詞",
+    "explanation": "information about...。"
+  },
+  {
+    "id": 80,
+    "sentence": "The manager spoke ______ enough for everyone to hear.",
+    "sentence_zh": "主管講得夠______讓大家聽見。",
+    "choices": ["loudly", "loud", "loudness", "aloud"],
+    "answer": "loudly",
+    "tag": "副詞用法",
+    "explanation": "修飾 spoke，需副詞 loudly。"
+  },
+  {
+    "id": 81,
+    "sentence": "The software update will fix several ______ issues.",
+    "sentence_zh": "軟體更新將修復數個______問題。",
+    "choices": ["technical", "technique", "technically", "technician"],
+    "answer": "technical",
+    "tag": "詞性判斷",
+    "explanation": "issues 為名詞，需形容詞 technical 修飾。"
+  },
+  {
+    "id": 82,
+    "sentence": "The staff were instructed to arrive ______ than usual.",
+    "sentence_zh": "員工被指示比平常更______到達。",
+    "choices": ["earlier", "early", "earliest", "more early"],
+    "answer": "earlier",
+    "tag": "比較級副詞",
+    "explanation": "than 提示比較級 earlier。"
+  },
+  {
+    "id": 83,
+    "sentence": "Please send the completed document ______ email.",
+    "sentence_zh": "請以電子郵件方式______寄送已完成文件。",
+    "choices": ["by", "with", "to", "at"],
+    "answer": "by",
+    "tag": "介系詞（方式）",
+    "explanation": "by email 表示方式。"
+  },
+  {
+    "id": 84,
+    "sentence": "The manager will review your request and respond ______ possible.",
+    "sentence_zh": "主管會審核你的申請並盡快______回覆。",
+    "choices": ["as soon as", "as long as", "as far as", "as well as"],
+    "answer": "as soon as",
+    "tag": "慣用句",
+    "explanation": "as soon as possible = 盡快。"
+  },
+  {
+    "id": 85,
+    "sentence": "The company is committed to ______ waste.",
+    "sentence_zh": "公司致力於______減少浪費。",
+    "choices": ["reducing", "reduce", "to reduce", "reduced"],
+    "answer": "reducing",
+    "tag": "介系詞後動名詞",
+    "explanation": "committed to 後接 V-ing。"
+  },
+  {
+    "id": 86,
+    "sentence": "The contract was signed ______ both parties.",
+    "sentence_zh": "合約由雙方______簽署。",
+    "choices": ["by", "to", "with", "at"],
+    "answer": "by",
+    "tag": "被動語態",
+    "explanation": "被動句用 by 表示執行者。"
+  },
+  {
+    "id": 87,
+    "sentence": "The new schedule will take effect ______ January 1.",
+    "sentence_zh": "新時程將於 1 月 1 日______生效。",
+    "choices": ["on", "in", "at", "by"],
+    "answer": "on",
+    "tag": "時間介系詞",
+    "explanation": "on + 特定日期。"
+  },
+  {
+    "id": 88,
+    "sentence": "We apologize ______ any inconvenience caused.",
+    "sentence_zh": "對於造成的不便，我們______致歉。",
+    "choices": ["for", "to", "with", "at"],
+    "answer": "for",
+    "tag": "固定搭配",
+    "explanation": "apologize for + 名詞。"
+  },
+  {
+    "id": 89,
+    "sentence": "The customer was dissatisfied ______ the service.",
+    "sentence_zh": "客戶對服務感到______不滿。",
+    "choices": ["with", "to", "for", "at"],
+    "answer": "with",
+    "tag": "固定搭配",
+    "explanation": "dissatisfied with。"
+  },
+  {
+    "id": 90,
+    "sentence": "The survey was conducted ______ determine customer needs.",
+    "sentence_zh": "調查是為了______了解客戶需求而進行。",
+    "choices": ["to", "for", "by", "with"],
+    "answer": "to",
+    "tag": "不定詞表目的",
+    "explanation": "to + 原形 determine。"
+  },
+  {
+    "id": 91,
+    "sentence": "The manager asked me to ______ the meeting minutes.",
+    "sentence_zh": "主管要我______會議紀錄。",
+    "choices": ["prepare", "prepares", "preparing", "prepared"],
+    "answer": "prepare",
+    "tag": "不定詞後動詞",
+    "explanation": "to 後接原形 prepare。"
+  },
+  {
+    "id": 92,
+    "sentence": "The office supplies were ordered ______ the inventory was low.",
+    "sentence_zh": "辦公用品被訂購，______庫存不足。",
+    "choices": ["because", "although", "unless", "whereas"],
+    "answer": "because",
+    "tag": "因果連接詞",
+    "explanation": "後句為原因，用 because。"
+  },
+  {
+    "id": 93,
+    "sentence": "Employees should log out of the system ______ leaving.",
+    "sentence_zh": "員工在離開前應先______登出系統。",
+    "choices": ["before", "after", "since", "while"],
+    "answer": "before",
+    "tag": "時間連接詞",
+    "explanation": "before + V-ing。"
+  },
+  {
+    "id": 94,
+    "sentence": "The company offers training programs ______ improve skills.",
+    "sentence_zh": "公司提供訓練課程以______提升技能。",
+    "choices": ["to", "for", "with", "by"],
+    "answer": "to",
+    "tag": "不定詞表目的",
+    "explanation": "to + 原形 improve。"
+  },
+  {
+    "id": 95,
+    "sentence": "The manager will be available ______ 3 p.m.",
+    "sentence_zh": "主管在下午三點______有空。",
+    "choices": ["at", "in", "on", "by"],
+    "answer": "at",
+    "tag": "時間介系詞",
+    "explanation": "at + 精確時間。"
+  },
+  {
+    "id": 96,
+    "sentence": "The new policy applies ______ all departments.",
+    "sentence_zh": "新政策適用______所有部門。",
+    "choices": ["to", "for", "with", "at"],
+    "answer": "to",
+    "tag": "固定搭配",
+    "explanation": "apply to 為固定搭配。"
+  },
+  {
+    "id": 97,
+    "sentence": "The company has decided to ______ the launch date.",
+    "sentence_zh": "公司已決定______上市日期。",
+    "choices": ["delay", "delays", "delaying", "delayed"],
+    "answer": "delay",
+    "tag": "不定詞後動詞",
+    "explanation": "to 後接原形 delay。"
+  },
+  {
+    "id": 98,
+    "sentence": "The documents are stored ______ a secure server.",
+    "sentence_zh": "文件存放在______安全的伺服器上。",
+    "choices": ["on", "in", "at", "by"],
+    "answer": "on",
+    "tag": "介系詞（媒介）",
+    "explanation": "商用常見說法：on a server。"
+  },
+  {
+    "id": 99,
+    "sentence": "Please review the instructions carefully ______ starting.",
+    "sentence_zh": "開始之前請仔細______檢閱指示。",
+    "choices": ["before", "after", "since", "although"],
+    "answer": "before",
+    "tag": "時間連接詞",
+    "explanation": "before + V-ing。"
+  },
+  {
+    "id": 100,
+    "sentence": "The company’s headquarters is located ______ downtown Taipei.",
+    "sentence_zh": "公司總部位於台北市中心______。",
+    "choices": ["in", "on", "at", "by"],
+    "answer": "in",
+    "tag": "地點介系詞",
+    "explanation": "in + 區域/地點（downtown）。"
+  }
+]
